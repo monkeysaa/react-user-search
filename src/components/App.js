@@ -4,7 +4,11 @@ import SearchBar from './SearchBar';
 // Only use render when extending a React Component.
 // When declaring a component, just straight to return.
 const App = () => {
-    return <div><SearchBar /></div>;
+  return (
+    <div className='ui container' style={{ marginTop: '10px' }}>
+      <SearchBar />
+    </div>
+  );
 }
 
 export default App;
